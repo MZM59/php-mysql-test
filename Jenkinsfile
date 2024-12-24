@@ -12,7 +12,7 @@ pipeline {
             steps {
                 script {
                     echo "Cloning repository from GitHub..."
-                    git url: 'https://github.com/novrian6/php_docker_app.git', branch: 'master'
+                    git url: 'https://github.com/novrian6/php_docker_app.git', branch: 'main'
 
                     echo "Listing workspace contents for verification..."
                     sh 'ls -la'  // Verify that the repository is cloned correctly
