@@ -24,3 +24,5 @@ pipeline {
                 echo "Deploying APP"
             }
         }
+    }
+}
