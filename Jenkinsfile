@@ -4,7 +4,6 @@ pipeline {
         stage("init"){
             steps{
                 echo "initializing"
-                sh 'php install php'
             }
         }
         
